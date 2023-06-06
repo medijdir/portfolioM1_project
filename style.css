@@ -1,12 +1,5 @@
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap");
-@media screen and (min-width : 375px) {
-  .container{
- 
-}
-body {
-  background-color: #e5e5e5;
-  width: 80%;
-}
 
 .home-page {
   background-color: #fff;
@@ -18,21 +11,18 @@ body {
 }
 
 .log {
-  
   height: 30px;
   width: 30px;
   display: flex;
   align-items: center;
- 
 }
 
 .hamburger {
-   display: flex;
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin: 24px 12px 0 24px;
   padding: 0;
-
 }
 
 #home {
@@ -40,9 +30,8 @@ body {
   background-size: 25%;
   background-size: cover;
   background-repeat: no-repeat;
-  margin: 24px 12px 0 12px; 
+  margin: 24px 12px 0 12px;
   padding-top: 25px;
-  
 }
 
 .presentation {
@@ -52,10 +41,10 @@ body {
   color: #172b4d;
   line-height: 52px;
   text-align: start;
- 
 }
+
 p {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -64,23 +53,21 @@ p {
 }
 
 h3 {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #7F8CFF;
-  
+  color: #7f8cff;
 }
-ul{
+
+ul {
   padding: 0;
 }
 
 .icon {
-
   list-style-type: none;
-  display:inline-block;
+  display: inline-block;
   text-align: center;
   margin: 10px;
-}
 }
