@@ -1,70 +1,86 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap");
-
-.navbar {
-  display: flex;
-  justify-content: end;
-  list-style-type: none;
+@media screen and (min-width : 375px) {
+  .container{
+ 
+}
+body {
+  background-color: #e5e5e5;
+  width: 80%;
 }
 
-.page1 {
+.home-page {
+  background-color: #fff;
+  border-radius: 0 0 0 5%;
+  margin: 15%;
   display: flex;
   flex-direction: column;
-  background-image: url('/img/image.png');
-  background-size: cover;
-  background-repeat: repeat-x;
-  margin: 5%;
+  height: 600px;
 }
 
-.navbar-tag {
-  padding-left: 30px;
-  padding-right: 30px;
-  text-decoration: none;
+.log {
+  
+  height: 30px;
+  width: 30px;
   display: flex;
+  align-items: center;
+ 
+}
+
+.hamburger {
+   display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  justify-items: baseline;
+  margin: 24px 12px 0 24px;
+  padding: 0;
+
 }
 
-.logo {
-  padding: 15px 0 0 30px;
+#home {
+  background-image: url("/img/image.png");
+  background-size: 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 24px 12px 0 12px; 
+  padding-top: 25px;
+  
 }
 
-.header {
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 60px;
-  color: #091e42;
+.presentation {
+  font-family: Poppins, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: #172b4d;
+  line-height: 52px;
+  text-align: start;
+ 
 }
-
-.para {
-  font-family: "Poppins", sans-serif;
+p {
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
+  font-size: 16px;
+  line-height: 24px;
   color: #344563;
-  flex: display;
 }
 
 h3 {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #7f8cff;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  color: #7F8CFF;
+  
 }
-
-#contact ul {
-  display: flex;
-  align-items: center;
+ul{
+  padding: 0;
 }
 
 .icon {
+
   list-style-type: none;
-  margin-right: 10px;
+  display:inline-block;
+  text-align: center;
+  margin: 10px;
+}
 }
